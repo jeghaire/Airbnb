@@ -1,0 +1,10 @@
+[
+  { "id": "1", "img": "/1.webp", "location": "Warri", "distance": "45-minute drive" },
+  { "id": "2", "img": "/2.webp", "location": "Oleh", "distance": "4.5-hour drive" },
+  { "id": "3", "img": "/3.webp", "location": "Asaba", "distance": "4.5-hour drive" },
+  { "id": "4", "img": "/4.webp", "location": "Bayelsa", "distance": "4-hour drive" },
+  { "id": "5", "img": "/5.webp", "location": "Lagos", "distance": "45-minute drive" },
+  { "id": "6", "img": "/6.webp", "location": "Port-harcourt", "distance": "4.5-hour drive" },
+  { "id": "7", "img": "/7.webp", "location": "Ughelli", "distance": "6-hour drive" },
+  { "id": "8", "img": "/8.webp", "location": "Abuja", "distance": "2-hour drive" }
+]
