@@ -9,6 +9,7 @@ function BannerCard({ img, title, desc, btnText }) {
           layout="fill"
           objectFit="cover"
           className="rounded-2xl"
+          alt=""
         />
         {/* <div className="absolute top-32 left-12">
           <h3 className="text-4xl mb-3 w-64">{title}</h3>

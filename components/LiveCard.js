@@ -8,6 +8,7 @@ export default function LiveCard({ img, title }) {
           src={img}
           layout="fill"
           className="rounded-xl"
+          alt=""
         /></div>
       <h3 className="text-xl font-medium mt-3">{title}</h3>
     </div>

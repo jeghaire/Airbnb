@@ -52,7 +52,7 @@ export default function MapFrame({ searchResults }) {
           <Pin onClick={() => setPopupInfo(result)} />
         </Marker>
       )),
-    []
+    [searchResults]
   )
 
   return (
@@ -86,7 +86,8 @@ export default function MapFrame({ searchResults }) {
                   src={popupInfo.img}
                   layout="fill"
                   objectFit="cover"
-                  className="rounded-md "
+                  className="rounded-md"
+                  alt=""
                 />
               </div>
             </div>

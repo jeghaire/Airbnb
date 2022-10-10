@@ -8,6 +8,7 @@ export default function ExploreCard({ img, location, distance }) {
           src={img}
           layout="fill"
           className="rounded-lg"
+          alt=""
         /></div>
       <div>
         <h2 className="font-medium">{location}</h2>

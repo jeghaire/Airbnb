@@ -41,7 +41,7 @@ function Header({ placeholder }) {
   }
 
   return (
-    <header className="sticky top-0 z-10 grid grid-cols-3 bg-white items-center shadow-md px-2 py-2 md:px-8">
+    <header className="sticky top-0 z-10 grid grid-cols-3 bg-white items-center shadow-md px-2 py-4 md:px-8">
       <div onClick={() => router.push('/')} className="flex items-center h-12 m-auto cursor-pointer">
         <Image
           src="/favicon.svg"
@@ -52,6 +52,7 @@ function Header({ placeholder }) {
           // height="90"
           objectFit="contain"
           objectPosition="left"
+          alt=""
         />
       </div>
       <div className="flex items-center md:border-2 md:shadow-sm md:rounded-full p-1 max-w-1/3 slashed-zero">
